@@ -1,0 +1,14 @@
+body {
+    font-family: 'Poppins';
+    margin: 20px;
+}
+
+.dark-mode {
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: #1E1E1E;
+}
