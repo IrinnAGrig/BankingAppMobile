@@ -1,0 +1,38 @@
+<app-mini-nav [title]="'Edit Profile'" [image]="'no'" [action]="'no'"></app-mini-nav>
+<div class="data-image">
+    <div class="image">
+        <img src="../../../assets/images/no-profile-image.jpg">
+    </div>
+    <h3>Name</h3>
+    <p>job</p>
+</div>
+<form [formGroup]="editForm">
+    <div class="group">
+        <label for="name">Full Name</label>
+        <div class="input-group">
+            <img src="../../../assets/images/profile/User,Profile.png">
+            <input type="text" formControlName="name" id="name" placeholder="Enter full name">
+        </div>
+    </div>
+    <div class="group">
+        <label for="email">Email Address</label>
+        <div class="input-group">
+            <img src="../../assets/images/icons/email-mail-letter.png">
+            <input type="email" formControlName="email" id="email" placeholder="Enter full name">
+        </div>
+    </div>
+    <div class="group">
+        <label for="phone">Phone Number</label>
+        <div class="input-group">
+            <img src="../../assets/images/icons/Phone, Call.png">
+            <input type="text" formControlName="phone" id="phone" placeholder="Enter phone">
+        </div>
+    </div>
+    <div class="group">
+        <label for="phone">Birth Date</label>
+        <div class="input-group">
+            <img src="../../assets/images/icons/Phone, Call.png">
+            <input type="text" formControlName="phone" id="phone" placeholder="Enter phone">
+        </div>
+    </div>
+</form>

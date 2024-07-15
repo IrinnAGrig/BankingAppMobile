@@ -1,0 +1,16 @@
+<ul class="transaction">
+    <li *ngFor="let transaction of transactions">
+        <div class="transaction-info">
+            <div class="image">
+                <img [src]="transaction.emblem" [alt]="transaction.title">
+            </div>
+            <div class="titles">
+                <div class="title">{{ transaction.title }}</div>
+                <div class="subtitle">{{ transaction.subtitle }}</div>
+            </div>
+        </div>
+        <div class="transaction-sum" [ngClass]="{'positive': transaction.sum > 0}">
+            {{ setMoney(transaction.valute, transaction.sum)}}
+        </div>
+    </li>
+</ul>

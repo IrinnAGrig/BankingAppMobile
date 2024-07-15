@@ -1,0 +1,51 @@
+<div class="title">
+    <div class="name">
+        <div class="image-profile">
+            <img src="../../../assets/images/icons/Search, Loupe.svg">
+        </div>
+        <div>
+            <p>Welcome back,</p>
+            <h4>name</h4>
+        </div>
+    </div>
+    <div class="search">
+        <img src="../../../assets/images/icons/Search, Loupe.svg">
+    </div>
+</div>
+<div class="card">
+    <app-card></app-card>
+    <img class="elipse" src="../../../assets/images/home/elipse.png">
+</div>
+
+<ul class="actions">
+    <li>
+        <div>
+            <img src="../../../assets/images/home/sign-up.png">
+        </div>
+        <p>Sent</p>
+    </li>
+    <li>
+        <div>
+            <img src="../../../assets/images/home/sign-up.png" style="transform: rotate(180deg);">
+        </div>
+        <p>Receive</p>
+    </li>
+    <li>
+        <div>
+            <img src="../../../assets/images/home/dolar.png">
+        </div>
+        <p>Loan</p>
+    </li>
+    <li>
+        <div>
+            <img src="../../../assets/images/home/topup.png">
+        </div>
+        <p>Topup</p>
+    </li>
+</ul>
+<div class="list-transact">
+    <h4>Transactions</h4>
+    <p>See All</p>
+
+</div>
+<app-transaction [transactions]="transactions"></app-transaction>

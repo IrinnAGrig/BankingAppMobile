@@ -1,0 +1,66 @@
+<div>
+    <app-mini-nav [title]="'Profile'" [image]="'home/single-user-edit-pen.png'" [action]="'/edit-profile'"></app-mini-nav>
+    <div class="name">
+        <div class="image-profile">
+            <img src="../../../assets/images/icons/Search, Loupe.svg">
+        </div>
+        <div>
+            <h4>name</h4>
+            <p>Welcome back,</p>
+        </div>
+    </div>
+    <div>
+        <div class="button-direction" routerLink="/profile">
+            <div>
+                <img src="../../../assets/images/profile/User,Profile.png">
+                <h6>Personal Information</h6>
+            </div>
+            <img src="../../../assets/images/home/arrow-right.png">
+        </div>
+        <div class="button-direction" routerLink="/profile">
+            <div>
+                <img src="../../../assets/images/profile/credit-cards.png">
+                <h6>Payment Preferences</h6>
+            </div>
+            <img src="../../../assets/images/home/arrow-right.png">
+        </div>
+        <div class="button-direction" routerLink="/profile">
+            <div>
+                <img src="../../../assets/images/profile/Credit card, Edit.png">
+                <h6>Banks and Cards</h6>
+            </div>
+            <img src="../../../assets/images/home/arrow-right.png">
+        </div>
+        <div class="button-direction" routerLink="/profile">
+            <div>
+                <img src="../../../assets/images/profile/Bell, Notification.png">
+                <h6>Notifications</h6>
+            </div>
+            <img *ngIf="notifications == 0" src="../../../assets/images/home/arrow-right.png">
+            <div *ngIf="notifications != 0" class="notification">
+                <p>{{notifications}}</p>
+            </div>
+        </div>
+        <div class="button-direction" routerLink="/profile">
+            <div>
+                <img src="../../../assets/images/profile/message.png">
+                <h6>Message Center</h6>
+            </div>
+            <img src="../../../assets/images/home/arrow-right.png">
+        </div>
+        <div class="button-direction" routerLink="/profile">
+            <div>
+                <img src="../../../assets/images/profile/Pin, Location.png">
+                <h6>Address</h6>
+            </div>
+            <img src="../../../assets/images/home/arrow-right.png">
+        </div>
+        <div class="button-direction" routerLink="/profile">
+            <div>
+                <img src="../../../assets/images/profile/settings.png">
+                <h6>Settings</h6>
+            </div>
+            <img src="../../../assets/images/home/arrow-right.png">
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .search {
+        background-color: #F4F4F4;
+        height: 42px;
+        width: 42px;
+        text-align: center;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

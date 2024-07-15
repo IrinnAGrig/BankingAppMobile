@@ -1,0 +1,8 @@
+<div class="title">
+    <app-go-back></app-go-back>
+    <h3>{{title}}</h3>
+    <div *ngIf="action != 'no'" class="search" [routerLink]="action">
+        <img [src]="'../../../../assets/images/' + image">
+    </div>
+    <div *ngIf="action == 'no'" style="width: 42px;"></div>
+</div>

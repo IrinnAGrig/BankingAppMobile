@@ -1,0 +1,40 @@
+<app-mini-nav [title]="'Settings'" [image]="'home/door.png'" [action]="'/edit-profile'"></app-mini-nav>
+<div class="compartiment">
+    <p class="name">General</p>
+    <div class="button-direction">
+        <h6>Language</h6>
+        <div class="lang">
+            <p>English</p>
+            <img src="../../../assets/images/home/arrow-right.png">
+        </div>
+    </div>
+    <div class="button-direction" routerLink="/profile">
+        <h6>My profile</h6>
+        <img src="../../../assets/images/home/arrow-right.png">
+    </div>
+    <div class="button-direction">
+        <h6>Contact Us</h6>
+        <img src="../../../assets/images/home/arrow-right.png">
+    </div>
+</div>
+<div class="compartiment">
+    <p class="name">Security</p>
+    <div class="button-direction">
+        <h6>Change Password</h6>
+        <img src="../../../assets/images/home/arrow-right.png">
+    </div>
+    <div class="button-direction">
+        <h6>Privacy Policy</h6>
+        <img src="../../../assets/images/home/arrow-right.png">
+    </div>
+</div>
+<div>
+    <p class="choose">Choose what data you share with us</p>
+    <div class="button-direction2">
+        <h6>Biometric</h6>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+.page {
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -20px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: -20px;
+    margin-right: auto;
+    height: 86px;
+    background-color: #F4F4F4;
+
+    li {
+        text-align: center;
+        color: #8B8B94;
+        font-size: 11px;
+        padding: 20px;
+
+        p {
+            margin: 0;
+            font-weight: 600;
+        }
+    }
+
+    li.active {
+        color: #0066FF;
+
+        img {
+            fill: green;
+        }
+
+        svg {
+            path {
+                stroke: #0066FF;
+            }
+        }
+    }
+
+    li svg {
+        path {
+            stroke: #8B8B94;
+        }
+    }
+}

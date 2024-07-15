@@ -1,0 +1,11 @@
+.back {
+    background-color: #F4F4F4;
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

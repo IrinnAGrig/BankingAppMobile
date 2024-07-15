@@ -1,0 +1,97 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .name {
+        margin: 0;
+        display: flex;
+
+        .image-profile {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+            background-color: black;
+            margin-right: 20px;
+        }
+
+        p {
+            font-size: 12px;
+            color: #7E848D;
+            margin: 0;
+        }
+
+        h4 {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+    }
+
+    .search {
+        background-color: #F4F4F4;
+        height: 42px;
+        width: 42px;
+        text-align: center;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.card {
+    position: relative;
+
+    img.elipse {
+        position: absolute;
+        top: 50px;
+        right: -20px
+    }
+}
+
+.actions {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+        text-align: center;
+
+        p {
+            margin: 5px;
+            font-size: 13px;
+        }
+    }
+
+    div {
+        height: 54px;
+        margin: 0 auto;
+        width: 54px;
+        display: flex;
+        align-items: center;
+        background-color: #F4F4F4;
+        justify-content: center;
+        border-radius: 50%;
+    }
+}
+
+.list-transact {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+
+    h4 {
+        margin: 0;
+    }
+
+    p {
+        color: #0066FF;
+        font-size: 14px;
+        margin: 0;
+        font-weight: bold;
+    }
+}
+

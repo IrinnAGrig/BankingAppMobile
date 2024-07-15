@@ -1,0 +1,11 @@
+<app-mini-nav [title]="'Statistics'" [image]="'home/Bell, Notification.png'" [action]="'/edit-profile'"></app-mini-nav>
+<div class="curency">
+    <p>Current Balance</p>
+    <h3>$8,545.00</h3>
+</div>
+<app-line-chart></app-line-chart>
+<div class="list-transact">
+    <h4>Transactions</h4>
+    <p>See All</p>
+</div>
+<app-transaction [transactions]="transactions"></app-transaction>
